@@ -53,7 +53,7 @@ Variables under Lua Parameters (right-click board, advanced->Edit LUA Parameters
 **opacity:** transparency factor-number between 0 and 1 (e.g.  0.5 is 50% transparent) great for those transparent screens or if you use the HUD while flying
 
 
-Common questions pre-answered:
+**Common questions pre-answered:**
 
 1) Can I use this while flying? Sure, but you have to manually activate the board, this is a game limitation that HUDs can only be displayed when the player directly inrteracts with the controller. If you place a screen (transparent are good for this) in your vision path while flying and connect the board via a switch that is activated by your controller, then it will update as you fly that way as well.
 
