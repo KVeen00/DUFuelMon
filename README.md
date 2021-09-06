@@ -20,7 +20,7 @@ Installation Instructions:
 
 **Optional:** You can connect a switch or zone detector to the Programming board, ensuring you link FROM the switch/zone detector TO the Programming board. This will auto-start the Fuel Monitor, However, the HUD feature will ONLY activate if you manually activate the board. This is a built in game limitation not a feature.
 
-**System behavior **
+**System behavior**
 
   1) You can connect any combination up to 10 of the items above (10 is the Programming Board limit)
   2) All screens connected will show the fuel levels of all connected tanks dynamically
