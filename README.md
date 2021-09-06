@@ -1,5 +1,5 @@
 # DUFuelMon
-Dual Universe Fuel Monitor
+Dual Universe Fuel Monitor with HUD
 
 Why are you here?
 
@@ -32,25 +32,25 @@ Installation Instructions:
 
 Variables under Lua Parameters (right-click board, advanced->Edit LUA Parameters)
 
-displayTime: checkbox, turns clock on/off in HUD display
+**displayTime:** checkbox, turns clock on/off in HUD display
 
-timeOffset: used to adjust timezone/DST settings, you figure out the right number for you....
+**timeOffset:** used to adjust timezone/DST settings, you figure out the right number for you....
 
-timemode12: If you are weak and need a 12-hour clock, check this box, otherwise use 24 hour time like normal people
+**timemode12:** If you are weak and need a 12-hour clock, check this box, otherwise use 24 hour time like normal people
 
-useHUD: enables/disables the HUD view when the board is manually activated
+**useHUD:** enables/disables the HUD view when the board is manually activated
 
-fuel_xpos: left/right HUD position, 0 all the way left, 100 all the way right
+**fuel_xpos:** left/right HUD position, 0 all the way left, 100 all the way right
 
-fuel_ypos: up/down HUD position, 0 at the top, 100 at the bottom
+**fuel_ypos:** up/down HUD position, 0 at the top, 100 at the bottom
 
-fuel_size: scaling factor for the HUD size, bigger number bigger HUD
+**fuel_size:** scaling factor for the HUD size, bigger number bigger HUD
 
-WarnPoint: percentage of fuel where the tank bar will change to orange
+**WarnPoint:** percentage of fuel where the tank bar will change to orange
 
-CriticalPoint: percentage of fuel where the tank bar will turn red
+**CriticalPoint:** percentage of fuel where the tank bar will turn red
 
-opacity: transparency factor-number between 0 and 1 (e.g.  0.5 is 50% transparent) great for those transparent screens or if you use the HUD while flying
+**opacity:** transparency factor-number between 0 and 1 (e.g.  0.5 is 50% transparent) great for those transparent screens or if you use the HUD while flying
 
 
 Common questions pre-answered:
@@ -63,6 +63,7 @@ Common questions pre-answered:
 
 4) Why is the HUD so small when I first start it? You should buy a bigger monitor....The HUD code was ported over from another project and currenlty does not dynamically resize in the stand-alone fuel monitor. In short, HUD sizes are driven by your actual computers monitor resolution and the game resolution. In-game screens are fixed size and the actual resolution does not change so they should always be fine. The scaling factor for the HUD has been tested on 3840x2160 resolution and 1920x1080 resolution, but does not change itself, you have to manually figure out the right number in the fuel_size variable right now.
 
-4a) Follow on question: will the HUD resize be fixed in the future? Yes, this is a simple fix, but tied to a more complex problem with the current code, it will be fixed and the HUD will dynamically adjust to your particular screen resolution, just not in this version
+    4a) Follow on question: will the HUD resize be fixed in the future? Yes, this is a simple fix, but tied to a more complex problem with the current code, it will be fixed and the HUD will dynamically adjust to your particular screen resolution, just not in this version
   
 5) Can I connect anything else to the board? Sure, let me know if it breaks....it should ignore anything other than the three item types listed above AND Databanks. It actually does something if you connect a databank, or multiple databanks, but you can't see it and it is not related to stand-alone functionality, so there is no reason to attach one now. That will be part of a future project release.
+6) Why is the source code not available in easy to read format? Does this mean you are evil?  It will be later,and Yes. The code was ported from other projects and is frankly, a mess. I am cleaning it up but wanted to get it out to some folks to test the functionality before advertising it for release. The HUD portion has a band-aid on a patch, coverd in duct tape at the moment to make the sizing issue resolvable and should NOT be generally installed. The code, in documented and readable form will be available when it is actually released and actually advertised, probably in the next couple weeks
