@@ -18,13 +18,13 @@ Installation Instructions:
 Optional: You can connect a switch or zone detector to the Programming board, ensuring you link FROM the switch/zone detector TO the Programming board. This will auto-start the Fuel Monitor, However, the HUD feature will ONLY activate if you manually activate the board. This is a built in game limitation not a feature.
 
 System behavior 
-  -You can connect any combination up to 10 of the items above (10 is the Programming Board limit)
-  -All screens connected will show the fuel levels of all connected tanks dynamically
-  -If the board was manually activated, a fuel HUD will appear in the upper left of your screen HOWEVER this version does NOT dynamically resize
-      -Right click on the board, select advanced->Edit LUA Parameters
-      -Using the fuel_xpos, fuel_ypos, and fuel_size variables you can adjust the size and position of the HUD element for your monitor/screen resolution
-  -The Screen will show 'ON at the top when actively updating, and 'OFF' when, you know, it is off.
-  -The HUD will show a clock when running, since that is handy, and the HUD would not be there if it was not on.....(the timeoffset variable in LUA parameters will adjust for your timezone/DST, you have to figure that part out, I don't know where you live)
+  1)You can connect any combination up to 10 of the items above (10 is the Programming Board limit)
+  2)All screens connected will show the fuel levels of all connected tanks dynamically
+  3)If the board was manually activated, a fuel HUD will appear in the upper left of your screen HOWEVER this version does NOT dynamically resize
+      a)Right click on the board, select advanced->Edit LUA Parameters
+      b)Using the fuel_xpos, fuel_ypos, and fuel_size variables you can adjust the size and position of the HUD element for your monitor/screen resolution
+  4)The Screen will show 'ON at the top when actively updating, and 'OFF' when, you know, it is off.
+  5)The HUD will show a clock when running, since that is handy, and the HUD would not be there if it was not on.....(the timeoffset variable in LUA parameters will adjust for your timezone/DST, you have to figure that part out, I don't know where you live)
 
 Variables under Lua Parameters (right-click board, advanced->Edit LUA Parameters)
 displayTime: checkbox, turns clock on/off in HUD display
