@@ -24,9 +24,7 @@ Installation Instructions:
 
   1) You can connect any combination up to 10 of the items above (10 is the Programming Board limit)
   2) All screens connected will show the fuel levels of all connected tanks dynamically
-  3) If the board was manually activated, a fuel HUD will appear in the upper left of your screen HOWEVER this version does NOT dynamically resize
-    3a) Right click on the board, select advanced->Edit LUA Parameters
-    3b) 3b) Using the fuel_xpos, fuel_ypos, and fuel_size variables you can adjust the size and position of the HUD element for your monitor/screen resolution
+  3) If the board was manually activated, a fuel HUD will appear in the upper left of your screen HOWEVER this version does NOT dynamically resize. Right click on the board, select advanced->Edit LUA Parameters. Using the fuel_xpos, fuel_ypos, and fuel_size variables you can adjust the size and position of the HUD element for your monitor/screen resolution
   4) The Screen will show 'ON at the top when actively updating, and 'OFF' when, you know, it is off.
   5) The HUD will show a clock when running, since that is handy, and the HUD would not be there if it was not on.....(the timeoffset variable in LUA parameters will adjust for your timezone/DST, you have to figure that part out, I don't know where you live)
 
