@@ -3,7 +3,7 @@ Dual Universe Fuel Monitor with HUD
 
 Why are you here?
 
-1)You were given the link and asked to try it out: Welcome, see instructions below, please provide comments on Discord
+1)You were given the link and asked to try it out: Welcome, see instructions below, please provide comments on Discord(KVeen#3678)
 
 2)You searched for Dual Universe on GitHub: Welcome as well, but this code is not ready for general distribution. You can try it out by following the instructions below but it is currently in limited distribution for testing. A public release should be available soon. 
 
